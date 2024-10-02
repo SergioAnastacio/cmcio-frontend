@@ -1,0 +1,29 @@
+{
+  "name": "cmcio-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint ./src",
+    "format": "biome format --write ./src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "globals": "^15.9.0",
+    "oxlint": "^0.9.9",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
