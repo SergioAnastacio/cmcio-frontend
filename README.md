@@ -1,3 +1,4 @@
+[![CI](https://github.com/SergioAnastacio/cmcio-frontend/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/SergioAnastacio/cmcio-frontend/actions/workflows/main.yml)
 # Mi Aplicación React con TypeScript y Vite
 
 Este proyecto es una aplicación web creada con React, TypeScript y Vite. Proporciona una configuración rápida y moderna para desarrollar aplicaciones web.
