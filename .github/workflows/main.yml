@@ -142,6 +142,6 @@ jobs:
           cd other-repo
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add other-repo/dev/frontend/cmcio-frontend-deployment.yaml
+          git add dev/frontend/cmcio-frontend-deployment.yaml
           git commit -m "Modificación automática desde workflow"
           git push origin main
