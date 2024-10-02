@@ -140,7 +140,7 @@ jobs:
       - name: Modify deployment file
         run: |
           cd other-repo
-          sed -i "s|image: ghcr.io/sergioanastacio/cmcio-frontend:latest|image: ghcr.io/sergioanastacio/cmcio-frontend:${{ needs.Build-Push-Image.outputs.version }}|g" dev/frontend/cmcio-frontend-deployment.yaml
+          sed -i "s|image: ghcr.io/sergioanastacio/cmcio-frontend:.*|image: ghcr.io/sergioanastacio/cmcio-frontend:${{ needs.Build-Push-Image.outputs.version }}|g" dev/frontend/cmcio-frontend-deployment.yaml
 
       - name: Commit and push changes
         run: |
